@@ -4,66 +4,87 @@
   box-sizing: border-box;
 }
 
-.conteiner {
-  width: 90%;
-  text-align: center;
-  margin: 0 auto;
-  height: 350px;
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+.container {
+  margin: 0 25%;
+  height: 400px;
+  height: 400px;
+  
+}
+
+header nav {
   width: 100%;
   background-color: white;
   height: 35px;
-  display: flex;
+  display: flex;  
   justify-content: space-between;
+  align-items: center;
 }
 
-header .menu-left ul  {
-  display: flex;
-  list-style: none;
-}
-header .menu-left ul a {
-  text-decoration: none;
-  
-}
-
-header .menu-right ul  {
+header .menu ul  {
   display: flex;
   list-style: none;
 
 }
 
-header .menu-right ul a {
+header .menu ul a {
   text-decoration: none;
 }
 
-.menu-left a {
+.menu a {
   padding-right: 15px;
   color: grey;
   
 }
 
-.menu-right a {
+
+.menu a {
   padding-right: 15px;
   color: grey;
+  
+  align-items: center;
 }
 
-header .menu-right .text {
+/*da vedere */
+.header .menu .text {
   background-color: blue;
   color: white;
   text-align: center;
 
 }
 
-.jumbotron.conteiner{
-  display: flex;
+.jumbotron {
+  width: 100%;
+  background-color: skyblue;
+}
+.container h1, p {
+  margin-bottom: 20px;
 }
 
-.conteiner img {
-  width: 500px;
-  
+.annulla {
+  margin-top: 20px;
 }
+
+.container p, button {
+  width: 35%;
+
+}
+
+.image-jumbo {
+  width: 800px;
+  height: 400px;
+
+
+}
+
+
+
+
+
+
+
 
 
