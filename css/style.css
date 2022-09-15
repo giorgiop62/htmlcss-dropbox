@@ -7,9 +7,8 @@
 .conteiner {
   width: 90%;
   text-align: center;
-  background-color: yellow;
   margin: 0 auto;
-  height: 500px;
+  height: 350px;
 
 }
 
@@ -56,6 +55,15 @@ header .menu-right .text {
   color: white;
   text-align: center;
 
+}
+
+.jumbotron.conteiner{
+  display: flex;
+}
+
+.conteiner img {
+  width: 500px;
+  
 }
 
 
