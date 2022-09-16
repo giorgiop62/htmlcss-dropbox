@@ -10,14 +10,13 @@ body {
 
 .container {
   margin: 0 25%;
-  height: 400px;
-  height: 400px;
   
 }
 
 .button {
   background-color: blue;
   color: white;
+  padding: 10px;
 
 }
 
@@ -58,6 +57,7 @@ header .menu ul a {
 .jumbotron {
   width: 100%;
   background-color: skyblue;
+  height: 400px;
 }
 .container h1, p {
   margin-bottom: 20px;
@@ -80,6 +80,40 @@ header .menu ul a {
   font-size: 30px;
 
 }
+
+.column {
+  width: calc(100% / 3);
+  height: 800px;
+  border: solid #e9e9e9;
+  
+}
+
+.column .tipologia{
+  text-align: center; 
+  margin-top: 10px;
+
+  
+}
+
+.column hr {
+  border: solid #e9e9e9;
+}
+
+main ul {
+  list-style: none;
+}
+
+main li {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+main li .button {
+  text-decoration: none;
+
+
+
+
 
 
 
