@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -116,6 +116,37 @@ main li .button {
 .container .d-flex  {
   justify-content: space-around;
 }
+
+section .container .img {
+  width: 900px;
+  height: 300px;
+  background-color: red;
+}
+
+section {
+  margin-top: 40px;
+}
+
+section .info-right {
+  padding: 40px;
+}
+ .box-image {
+  width: 200px;
+}
+
+.box {
+  width:calc(100% /3);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
