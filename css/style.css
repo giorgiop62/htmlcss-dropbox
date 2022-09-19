@@ -10,6 +10,8 @@ body {
 
 .container {
   margin: 0 25%;
+  width: 1000px;
+  
   
 }
 
@@ -67,6 +69,7 @@ header .menu ul a {
 
 .d-flex {
   display: flex;
+  flex-wrap:wrap;
 }
 
 .fa-solid {
@@ -104,18 +107,13 @@ main li .button {
   text-decoration: none;
 }
 
-.container .column {
-  
-}
 
 .row {
   width: 100%;
   border: solid #e9e9e9;
 }
 
-.container .d-flex  {
-  justify-content: space-around;
-}
+
 
 section .container .img {
   width: 900px;
@@ -132,11 +130,59 @@ section .info-right {
 }
  .box-image {
   width: 200px;
+  
 }
 
 .box {
-  width:calc(100% /3);
+  width:calc(100% / 3);
+  
 }
+
+
+
+.square {
+  background-color: blue;
+ 
+}
+
+.rectangle {
+  background-color: cadetblue;
+ 
+}
+
+.square1 {
+  background-color: blueviolet;
+  
+}
+
+.content {
+  background-color: cornflowerblue;
+  height: 200px;
+  padding-top: 60px;
+  }
+
+.content h3 {
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+.content .grafica {
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  color: gray;
+
+}
+
+.background {
+  background-color: black;
+  justify-content: space-around;
+}
+
+footer ul {
+  color: white;
+}
+
 
 
 
